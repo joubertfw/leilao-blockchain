@@ -1,0 +1,22 @@
+{
+  "name": "projeto-blockchain",
+  "version": "1.0.0",
+  "description": "Crie o `.env` no seu diretório raiz e copie o conteúdo do `.env.example` e substitua com suas informações.",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.3.0",
+    "dotenv": "^8.2.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^8.3.2",
+    "solc": "^0.8.4",
+    "web3": "^1.3.5"
+  }
+}
